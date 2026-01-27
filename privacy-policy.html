@@ -1,0 +1,77 @@
+privacy_policy_html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickCompress - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 { color: #007AFF; }
+        h2 { color: #555; margin-top: 30px; }
+        .last-updated { color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for QuickCompress</h1>
+    <p class="last-updated">Last updated: January 26, 2025</p>
+    
+    <h2>Overview</h2>
+    <p>QuickCompress is committed to protecting your privacy. This privacy policy explains how we handle your information.</p>
+    
+    <h2>Data Collection</h2>
+    <p><strong>QuickCompress does not collect, store, or transmit any user data.</strong></p>
+    
+    <h2>Image Processing</h2>
+    <p>All image compression happens locally on your device. Your images never leave your device and are not uploaded to any servers.</p>
+    
+    <h2>Permissions</h2>
+    <p>QuickCompress requires the following permissions:</p>
+    <ul>
+        <li><strong>Storage/Media Access:</strong> To read images you select for compression and save compressed images to your device gallery.</li>
+    </ul>
+    <p>These permissions are used solely for app functionality and no data is collected or transmitted.</p>
+    
+    <h2>Third-Party Services</h2>
+    <p>QuickCompress does not use any third-party analytics, advertising, or tracking services.</p>
+    
+    <h2>Children's Privacy</h2>
+    <p>QuickCompress does not collect any information from anyone, including children under 13.</p>
+    
+    <h2>Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+    
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, please contact us at: [YOUR EMAIL]</p>
+</body>
+</html>
+"""
+
+# Save the file
+output_path = '/mnt/user-data/outputs/privacy-policy.html'
+with open(output_path, 'w', encoding='utf-8') as f:
+    f.write(privacy_policy_html)
+
+print("✅ Privacy policy HTML file created!")
+print("\nNext steps:")
+print("1. Download this file")
+print("2. Replace [YOUR EMAIL] with your actual email")
+print("3. Upload to your quickcompress repo root")
+print("4. Enable GitHub Pages in repo Settings → Pages")
+print("5. Your privacy URL will be: https://[username].github.io/quickcompress/privacy-policy.html")
+```
+```
+✅ Privacy policy HTML file created!
+
+Next steps:
+1. Download this file
+2. Replace [YOUR EMAIL] with your actual email
+3. Upload to your quickcompress repo root
+4. Enable GitHub Pages in repo Settings → Pages
+5. Your privacy URL will be: https://[username].github.io/quickcompress/privacy-policy.html
